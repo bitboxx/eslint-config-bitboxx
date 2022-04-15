@@ -1,7 +1,14 @@
+# Installation
+
+`yarn add --dev eslint-config-bitboxx@github:bitboxx/eslint-config-bitboxx.git`
+
+# Configuration
+
 ## JS
 
 ```
 // .eslintrc.cjs
+
 module.exports = {
   extends: ['eslint-config-bitboxx'],
 };
@@ -11,7 +18,8 @@ module.exports = {
 ## React / JSX
 
 ```
-// .eslintrc.cjs content
+// .eslintrc.cjs
+
 module.exports = {
   extends: ['eslint-config-bitboxx', 'eslint-config-bitboxx/react'],
 };
@@ -19,6 +27,7 @@ module.exports = {
 
 ```
 // .babelrc.json
+
 {
   "presets": ["@babel/preset-react"]
 }
