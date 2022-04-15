@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-bitboxx",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "npmClient": "yarn",
+  "scripts": {
+    "upgrade": "yarn dlx ncu -u"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/eslint-parser": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "eslint": "^8.5.0",
+    "eslint-config-canonical": "^33.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-problems": "^6.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jsonc-eslint-parser": "^2.0.4",
+    "prettier": "^2.5.1"
+  }
+}
