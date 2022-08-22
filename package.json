@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-bitboxx",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "license": "UNLICENSED",
   "main": "index.js",
   "npmClient": "yarn",
   "scripts": {
     "upgrade": "yarn dlx npm-check-updates -u && yarn",
-    "commit": "yarn version major && git add -A && git commit -m 'Rules update $(date)' && git push origin"
+    "release": "yarn version major && git add -A && git commit -m \"Rules update $(date)\" && git push origin"
   },
   "dependencies": {
     "@babel/core": "^7.18.10",
