@@ -35,6 +35,7 @@ module.exports = {
     },
     sourceType: 'module',
   },
+  plugins: ['sort-destructure-keys'],
   root: true,
   rules: {
     'arrow-body-style': [
@@ -49,5 +50,9 @@ module.exports = {
       false,
     ],
     'canonical/import-specifier-newline': RULE_SET.off,
+    'sort-destructure-keys/sort-destructure-keys': [
+      RULE_SET.warn,
+      { caseSensitive: false },
+    ],
   },
 };
