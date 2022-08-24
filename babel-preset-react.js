@@ -1,3 +1,3 @@
 module.exports = () => ({
-  presets: ['@babel/preset-react'],
+  presets: [require('@babel/preset-react')],
 });
