@@ -1900,6 +1900,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: 1.4.0
     jsonc-eslint-parser: 2.1.0
     prettier: 2.7.1
+    typescript: ">=4.9.5"
   languageName: unknown
   linkType: soft
 
