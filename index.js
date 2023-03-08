@@ -47,7 +47,7 @@ module.exports = {
     'canonical/destructuring-property-newline': RULE_SET.off,
     'canonical/filename-match-regex': [
       RULE_SET.warn,
-      '^[.A-Z]?[a-z]+(?:[A-Z][a-z]+)*$',
+      { regex: '^[.A-Z]?[a-z]+(?:[A-Z][a-z]+)*$' },
     ],
     'canonical/import-specifier-newline': RULE_SET.off,
     'sort-destructure-keys/sort-destructure-keys': [
