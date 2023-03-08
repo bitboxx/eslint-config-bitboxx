@@ -18,6 +18,7 @@ module.exports = {
     // 'canonical/jest',
     'canonical/module',
     'canonical/node',
+    'canonical/browser',
     'problems',
     'plugin:prettier/recommended',
   ],

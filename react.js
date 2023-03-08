@@ -14,6 +14,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'canonical/react',
+    'canonical/jsx-a11y',
     'plugin:prettier/recommended',
   ],
   overrides: [{ files: ['*.jsx'], parser: '@babel/eslint-parser' }],

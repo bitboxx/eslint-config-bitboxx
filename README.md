@@ -18,7 +18,7 @@ EOF
 ```
 cat << EOF > .eslintrc.cjs
 module.exports = {
-  extends: ['eslint-config-bitboxx', 'eslint-config-bitboxx/react',  'eslint-config-bitboxx/solid'],
+  extends: ['eslint-config-bitboxx', 'eslint-config-bitboxx/react'],
 };
 EOF
 
