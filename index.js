@@ -48,7 +48,6 @@ module.exports = {
     'canonical/filename-match-regex': [
       RULE_SET.warn,
       '^[.A-Z]?[a-z]+(?:[A-Z][a-z]+)*$',
-      false,
     ],
     'canonical/import-specifier-newline': RULE_SET.off,
     'sort-destructure-keys/sort-destructure-keys': [
