@@ -26,6 +26,8 @@ module.exports = {
   },
   rules: {
     'react/prop-types': RULE_SET.off,
+    'react/jsx-sort-default-props': RULE_SET.off,
+    'react/sort-default-props': RULE_SET.warn,
   },
   settings: {
     react: { version: 'detect' },
