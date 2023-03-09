@@ -51,3 +51,10 @@ module.exports = {
 };
 EOF
 ```
+
+## Notes
+
+Packages that are not being used, but must be included because some eslint plugins don't require them directly:
+
+ - typescript
+ - eslint-plugin-import
