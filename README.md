@@ -28,3 +28,26 @@ cat << EOF > .babelrc.json
 }
 EOF
 ```
+
+## React / JSX in a monorepo (root)
+
+```
+cat << EOF > .eslintrc.cjs
+module.exports = {
+  extends: ['eslint-config-bitboxx', 'eslint-config-bitboxx/react'],
+  parser: '@babel/eslint-parser',
+  parserOptions: {
+    babelOptions: {
+      rootMode: 'upward',
+    },
+  },
+};
+EOF
+
+cat << EOF > babel.config.cjs
+module.exports = {
+  babelrcRoots: ['.', './packages/*'],
+  presets: ['eslint-config-bitboxx/babel-preset-react'],
+};
+EOF
+```
