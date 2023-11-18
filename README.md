@@ -13,6 +13,23 @@ EOF
 
 ```
 
+## Typescript
+
+cat << EOF > .eslintrc.cjs
+{
+  parser: '@typescript-eslint/parser',
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'eslint-config-bitboxx'
+  ],
+  plugins: ['@typescript-eslint'],
+}
+
+EOF
+
+```
+
+
 ## React / JSX
 
 ```
