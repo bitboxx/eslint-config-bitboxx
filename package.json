@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bitboxx",
-  "version": "21.0.0",
+  "version": "22.0.0",
   "license": "UNLICENSED",
   "main": "index.js",
   "npmClient": "yarn",
@@ -12,6 +12,7 @@
     "@babel/core": "7.23.3",
     "@babel/eslint-parser": "7.23.3",
     "@babel/preset-react": "7.23.3",
+    "doctrine": "^3.0.0",
     "eslint": "8.54.0",
     "eslint-config-canonical": "42.8.0",
     "eslint-config-prettier": "9.0.0",

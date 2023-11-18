@@ -15,8 +15,7 @@ module.exports = {
   extends: [
     // https://github.com/gajus/eslint-config-canonical
     'canonical/auto',
-    'problems',
-    'plugin:prettier/recommended',
+    'canonical/prettier'
   ],
   overrides: [
     {

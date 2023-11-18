@@ -2261,6 +2261,7 @@ __metadata:
     "@babel/eslint-parser": 7.23.3
     "@babel/preset-react": 7.23.3
     "@bitboxx/prettier-config": "https://github.com/bitboxx/prettier-config"
+    doctrine: ^3.0.0
     eslint: 8.54.0
     eslint-config-canonical: 42.8.0
     eslint-config-prettier: 9.0.0
