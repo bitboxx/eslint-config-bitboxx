@@ -2,30 +2,13 @@
 
 `yarn add --dev eslint-config-bitboxx@github:bitboxx/eslint-config-bitboxx.git`
 
-## JS
+## JS / Typescript
 
 ```
 cat << EOF > .eslintrc.cjs
 module.exports = {
   extends: ['eslint-config-bitboxx'],
 };
-EOF
-
-```
-
-## Typescript
-
-```
-cat << EOF > .eslintrc.cjs
-module.exports = {
-  parser: '@typescript-eslint/parser',
-  extends: [
-    'plugin:@typescript-eslint/recommended',
-    'eslint-config-bitboxx'
-  ],
-  plugins: ['@typescript-eslint'],
-};
-
 EOF
 
 ```
