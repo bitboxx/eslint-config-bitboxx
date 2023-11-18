@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bitboxx",
-  "version": "20.0.0",
+  "version": "21.0.0",
   "license": "UNLICENSED",
   "main": "index.js",
   "npmClient": "yarn",
