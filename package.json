@@ -1,19 +1,13 @@
 {
   "name": "eslint-config-bitboxx",
-  "version": "22.0.0",
+  "version": "23.0.0",
   "license": "UNLICENSED",
   "main": "js.js",
   "npmClient": "yarn",
   "exports": {
-    ".": {
-      "default": "./js.js"
-    },
-    "typescript": {
-      "default": "./typescript.js"
-    },
-    "js": {
-      "default": "./js.js"
-    }
+    ".": "./js.js",
+    "./typescript": "./typescript.js",
+    "./js": "./js.js"
   },
   "scripts": {
     "upgrade": "yarn dlx npm-check-updates -u && yarn",
