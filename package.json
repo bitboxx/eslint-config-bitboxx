@@ -1,9 +1,20 @@
 {
   "name": "eslint-config-bitboxx",
-  "version": "21.0.0",
+  "version": "22.0.0",
   "license": "UNLICENSED",
-  "main": "index.js",
+  "main": "js.js",
   "npmClient": "yarn",
+  "exports": {
+    ".": {
+      "default": "./js.js"
+    },
+    "typescript": {
+      "default": "./typescript.js"
+    },
+    "js": {
+      "default": "./js.js"
+    }
+  },
   "scripts": {
     "upgrade": "yarn dlx npm-check-updates -u && yarn",
     "release": "yarn version major && git add -A && git commit -m \"Rules update $(date)\" && git push origin"
