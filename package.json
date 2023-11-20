@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-bitboxx",
-  "version": "28.0.0",
+  "version": "29.0.0",
   "license": "UNLICENSED",
   "main": "index.js",
   "npmClient": "yarn",
   "exports": {
-    "./": "./index.js",
+    ".": "./index.js",
     "./react": "./react.js"
   },
   "scripts": {
