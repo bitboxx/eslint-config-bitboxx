@@ -19,6 +19,7 @@ const commonRules = {
     { regex: '^[.A-Z]?[a-z]+(?:[A-Z][a-z]+)*$' },
   ],
   'canonical/import-specifier-newline': RULE_SET.off,
+  'no-console': [RULE_SET.warn, { allow: ['info', 'debug', 'error'] }],
   'sort-destructure-keys/sort-destructure-keys': [
     RULE_SET.warn,
     { caseSensitive: false },
@@ -50,7 +51,7 @@ module.exports = {
       rules: commonRules,
     },
     {
-      extends: ['canonical/typescript'],
+      extends: ['canonical/auto', 'canonical/typescript'],
       files: ['**/*.ts'],
       parser: '@typescript-eslint/parser',
       plugins: ['sort-destructure-keys'],
